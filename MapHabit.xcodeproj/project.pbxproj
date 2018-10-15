@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860BDAF3217509D500F143AD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860BDAF2217509D500F143AD /* UIView+Extension.swift */; };
+		860BDAF5217509FB00F143AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860BDAF4217509FB00F143AD /* Constants.swift */; };
 		86694B20217413FE0099F997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B1F217413FE0099F997 /* AppDelegate.swift */; };
 		86694B22217413FE0099F997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B21217413FE0099F997 /* ViewController.swift */; };
 		86694B25217413FE0099F997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86694B23217413FE0099F997 /* Main.storyboard */; };
 		86694B27217413FE0099F997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86694B26217413FE0099F997 /* Assets.xcassets */; };
 		86694B2A217413FE0099F997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86694B28217413FE0099F997 /* LaunchScreen.storyboard */; };
+		86694B332174144F0099F997 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B322174144F0099F997 /* Section.swift */; };
+		86694B35217414D90099F997 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B34217414D90099F997 /* ExpandableHeaderView.swift */; };
+		86694B392174193F0099F997 /* SimpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B372174193F0099F997 /* SimpleVC.swift */; };
+		86694B3A2174193F0099F997 /* SimpleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86694B382174193F0099F997 /* SimpleVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860BDAF2217509D500F143AD /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		860BDAF4217509FB00F143AD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		86694B1C217413FE0099F997 /* MapHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86694B1F217413FE0099F997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86694B21217413FE0099F997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		86694B26217413FE0099F997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86694B29217413FE0099F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86694B2B217413FE0099F997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86694B322174144F0099F997 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		86694B34217414D90099F997 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		86694B372174193F0099F997 /* SimpleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleVC.swift; sourceTree = "<group>"; };
+		86694B382174193F0099F997 /* SimpleVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,36 @@
 		86694B1E217413FE0099F997 /* MapHabit */ = {
 			isa = PBXGroup;
 			children = (
+				86694B36217419140099F997 /* SimpleVC */,
+				86694B31217414290099F997 /* ExpandableHeaderView */,
 				86694B1F217413FE0099F997 /* AppDelegate.swift */,
 				86694B21217413FE0099F997 /* ViewController.swift */,
 				86694B23217413FE0099F997 /* Main.storyboard */,
 				86694B26217413FE0099F997 /* Assets.xcassets */,
 				86694B28217413FE0099F997 /* LaunchScreen.storyboard */,
 				86694B2B217413FE0099F997 /* Info.plist */,
+				860BDAF2217509D500F143AD /* UIView+Extension.swift */,
+				860BDAF4217509FB00F143AD /* Constants.swift */,
 			);
 			path = MapHabit;
+			sourceTree = "<group>";
+		};
+		86694B31217414290099F997 /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				86694B322174144F0099F997 /* Section.swift */,
+				86694B34217414D90099F997 /* ExpandableHeaderView.swift */,
+			);
+			name = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		86694B36217419140099F997 /* SimpleVC */ = {
+			isa = PBXGroup;
+			children = (
+				86694B372174193F0099F997 /* SimpleVC.swift */,
+				86694B382174193F0099F997 /* SimpleVC.xib */,
+			);
+			name = SimpleVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86694B3A2174193F0099F997 /* SimpleVC.xib in Resources */,
 				86694B2A217413FE0099F997 /* LaunchScreen.storyboard in Resources */,
 				86694B27217413FE0099F997 /* Assets.xcassets in Resources */,
 				86694B25217413FE0099F997 /* Main.storyboard in Resources */,
@@ -136,7 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860BDAF3217509D500F143AD /* UIView+Extension.swift in Sources */,
+				86694B332174144F0099F997 /* Section.swift in Sources */,
+				86694B35217414D90099F997 /* ExpandableHeaderView.swift in Sources */,
 				86694B22217413FE0099F997 /* ViewController.swift in Sources */,
+				860BDAF5217509FB00F143AD /* Constants.swift in Sources */,
+				86694B392174193F0099F997 /* SimpleVC.swift in Sources */,
 				86694B20217413FE0099F997 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +339,7 @@
 				86694B30217413FE0099F997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
