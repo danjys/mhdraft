@@ -35,7 +35,6 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
         self.textLabel?.text = title
         self.section = section
         self.delegate = delegate
-        
     }
     
     override func layoutSubviews() {
@@ -44,5 +43,10 @@ class ExpandableHeaderView: UITableViewHeaderFooterView {
         // self.contentView.backgroundColor = UIColor.darkGray
         self.textLabel?.font = UIFont(name:"Helvetica Neue",size:18)
         self.setGradientBackground(colorOne: Colors.lightblue, colorTwo: Colors.darkblue)
+        
+        //let headerImage = UIImage(named: "movies.png");
+        //let imageViewGame = UIImageView(image: headerImage);
+        //self.contentView.addSubview(imageViewGame)
+
     }
 }

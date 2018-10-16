@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		860BDAF3217509D500F143AD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860BDAF2217509D500F143AD /* UIView+Extension.swift */; };
 		860BDAF5217509FB00F143AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860BDAF4217509FB00F143AD /* Constants.swift */; };
+		860BDAF8217525CF00F143AD /* MHHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860BDAF6217525CF00F143AD /* MHHeaderView.swift */; };
+		860BDAF9217525CF00F143AD /* MHHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860BDAF7217525CF00F143AD /* MHHeaderView.xib */; };
 		86694B20217413FE0099F997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B1F217413FE0099F997 /* AppDelegate.swift */; };
 		86694B22217413FE0099F997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86694B21217413FE0099F997 /* ViewController.swift */; };
 		86694B25217413FE0099F997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86694B23217413FE0099F997 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		860BDAF2217509D500F143AD /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		860BDAF4217509FB00F143AD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		860BDAF6217525CF00F143AD /* MHHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHHeaderView.swift; sourceTree = "<group>"; };
+		860BDAF7217525CF00F143AD /* MHHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHHeaderView.xib; sourceTree = "<group>"; };
 		86694B1C217413FE0099F997 /* MapHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86694B1F217413FE0099F997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86694B21217413FE0099F997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 			children = (
 				86694B322174144F0099F997 /* Section.swift */,
 				86694B34217414D90099F997 /* ExpandableHeaderView.swift */,
+				860BDAF6217525CF00F143AD /* MHHeaderView.swift */,
+				860BDAF7217525CF00F143AD /* MHHeaderView.xib */,
 			);
 			name = ExpandableHeaderView;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860BDAF9217525CF00F143AD /* MHHeaderView.xib in Resources */,
 				86694B3A2174193F0099F997 /* SimpleVC.xib in Resources */,
 				86694B2A217413FE0099F997 /* LaunchScreen.storyboard in Resources */,
 				86694B27217413FE0099F997 /* Assets.xcassets in Resources */,
@@ -177,6 +184,7 @@
 				86694B22217413FE0099F997 /* ViewController.swift in Sources */,
 				860BDAF5217509FB00F143AD /* Constants.swift in Sources */,
 				86694B392174193F0099F997 /* SimpleVC.swift in Sources */,
+				860BDAF8217525CF00F143AD /* MHHeaderView.swift in Sources */,
 				86694B20217413FE0099F997 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
